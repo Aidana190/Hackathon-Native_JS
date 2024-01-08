@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- !HEADER start -->
+
+    <div class="header">
+      <div class="logo">
+        <img class="logo_img" src="./image/cinema 1.svg" alt="" />
+        <span class="logo_tittle">MovieArea</span>
+      </div>
+      <div class="menu_list">
+        <ul class="list">
+          <li><a href="./index2.html">Актеры</a></li>
+          <li><a href="./index3.html">Подборки</a></li>
+          <li><a href="./index4.html">Фильмы</a></li>
+          <li><a href="./index5.html">Новости</a></li>
+        </ul>
+      </div>
+      <div class="header_buttons">
+        <input class="search__input" id="search__input" type="search" placeholder="Найти фильм">
+        <div class="registration__button">
+          <a href="#" id="openBtn"> Регистрация </a>
+        </div>
+        <div class="modal-pop" id="modal-pop">
+          <div class="modal_container">
+            <div class="modal_body" id="modal_body">
+              <p></p>
+              <form action="">
+                <input
+                  type="text"
+                  placeholder="Имя"
+                  name=""
+                  id="name"
+                />
+                <input type="text" placeholder="Фамилия" name="" id="lastName" />
+                <input type="text" placeholder="Придумайте логин" name="" id="login" />
+                <input type="text" placeholder="Придумайте пароль" name="" id="password" />
+                <button class="registr">Зарегистрироваться</button>
+              
+              </form>
+              <div class="modal_close" id="modal_close">&#10006</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- !HEADER finish -->
+    <div class="categoria__part">
+      <span class="categoria__tittle"> Сейчас в кино </span>
+      <div class="categoria__list">
+        <ul class="categoria_list_movies">
+          <li><a class="categoria__list_m1" href="#">Все</a></li>
+          <li><a class="categoria__list_m" href="#">Комедии</a></li>
+          <li><a class="categoria__list_m" href="#">Фантастика</a></li>
+          <li><a class="categoria__list_m" href="#">Триллеры</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="movieList__first">
+      <img src="./image/image 1.png" width="300px" alt="" />
+      <img src="./image/image 2.png" width="300px" alt="" />
+      <img src="./image/image 2 (1).png" width="300px" alt="" />
+    </div>
+    <div class="movie_name_part">
+      <ul class="movies_tittle">
+        <li>Побег из Претории</li>
+        <p>Триллер</p>
+      </ul>
+      <ul>
+        <li>Джокер</li>
+        <p>Триллер, драма, криминал</p>
+      </ul>
+      <ul>
+        <li>Звёздные войны: Скайуокер. Восход</li>
+        <p>Фантастика, фэнтези, боевик, приключения</p>
+      </ul>
+    </div>
+    <div class="movieList__second">
+      <img src="./image/image 2 (2).png" width="300px" alt="" />
+      <img src="./image/image 2 (3).png" width="300px" alt="" />
+      <img src="./image/image 2 (4).png" width="300px" alt="" />
+    </div>
+    <div class="movie_name_part2">
+      <ul class="movies_tittle">
+        <li>Ford против Ferrari</li>
+        <p>Биография, спорт, драма, боевик</p>
+      </ul>
+      <ul>
+        <li>3022</li>
+        <p>Фантастика, триллер</p>
+      </ul>
+      <ul>
+        <li>
+          Хищные птицы: Потрясающая история <br />
+          Харли Квинн
+        </li>
+        <p>Боевик, криминал, комедия</p>
+      </ul>
+    </div>
+    <div class="button_end">
+      <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <input
+              id="inpImg"
+              class="form-control me-2"
+              type="text"
+              placeholder="Изображение"
+              aria-label="Search"
+            />
+            <input
+              id="inpName"
+              class="form-control me-2"
+              type="text"
+              placeholder="Название фильма"
+              aria-label="Search"
+            />
+            <input
+              id="inpJanr"
+              class="form-control me-2"
+              type="text"
+              placeholder="Жанр"
+              aria-label="Search"
+            />
+            
+            <button
+              class="btn btn-outline-success text-success"
+              id="btnAdd"
+              type="submit"
+            >
+              Добавить
+            </button>
+          </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
